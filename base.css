@@ -1,0 +1,124 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+  background: linear-gradient(to bottom, #154164 21%, #164266 39%, #002340 72%, #000000 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+header{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgba(38, 37, 37, 0.35);
+    border-radius: 20px;
+}
+
+#HeaderText{
+    flex-grow: 1;
+}
+
+#HollowKnightIcon{
+    width: 147px;
+    height: 140px;
+    margin-right: 20px;
+}
+
+#TeamCherryLogo{
+    align-self: center;
+    width: 74px;
+    height: 60px;
+    
+}
+
+#topico{
+    font-size: 40px;
+    margin-left: 35%;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(38, 37, 37, 0.65);
+    margin: auto;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.ImgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ImgContainer img{
+    width: 266px;
+    height: 283px;
+}
+.ImgContainer span{
+    text-align: center;
+}
+.subtopico{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+#content h1{
+    margin: 10px;
+    padding-left: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgba(38, 37, 37, 0.65);
+    margin: auto;
+    margin-top: 20px;
+    width: 40%;
+    padding: 10px 0; 
+    border-radius: 20px;
+    min-height: 50px; 
+    box-sizing: border-box;
+}
+
+footer span {
+    padding: 2px 6px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+#PageNavBar{
+    background-color: #D9D9D9;
+    color: black;
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+#PageNavBar li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
